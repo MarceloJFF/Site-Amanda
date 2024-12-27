@@ -441,8 +441,8 @@ pre {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0;
+  padding-left: 0;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
@@ -8035,7 +8035,7 @@ h1, h2, h3, h4, h5,
   z-index: 3; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: #164F70 !important;
       position: relative;
       top: 0; } }
   .ftco-navbar-light .navbar-brand {
@@ -8505,11 +8505,11 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     z-index: -1;
     content: '';
-    height: 200x;
+    height: 400pt;
     background: #afa939; }
     @media (max-width: 767.98px) {
       .services-wrap:after {
-        height: 100%; } }
+        height: 400pt; } }
 
 .services {
   width: 100%;
